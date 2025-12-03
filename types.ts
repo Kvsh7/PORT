@@ -1,3 +1,4 @@
+
 export interface Project {
   id: number;
   title: string;
@@ -5,6 +6,7 @@ export interface Project {
   tags: string[];
   imageUrl: string;
   link: string;
+  githubUrl?: string;
 }
 
 export interface Skill {
@@ -25,5 +27,6 @@ export enum SectionId {
   SKILLS = 'skills',
   PROCESS = 'process',
   PROJECTS = 'projects',
+  APPS = 'apps',
   CONTACT = 'contact'
 }

@@ -7,7 +7,8 @@ export const PROJECTS: Project[] = [
     description: "A secure social media web application featuring biometric face verification login using OpenCV and Multi-Factor Authentication (MFA).",
     tags: ["Java", "OpenCV", "REST APIs", "MFA", "SQL"],
     imageUrl: "https://picsum.photos/600/400?random=10", // Placeholder
-    link: "#"
+    link: "#",
+    githubUrl: "https://github.com/kvsh19997" 
   }
 ];
 

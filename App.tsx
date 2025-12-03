@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -5,6 +6,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Process from './components/Process';
 import Projects from './components/Projects';
+import Apps from './components/Apps';
 import GeminiChat from './components/GeminiChat';
 import ScrollProgress from './components/ScrollProgress';
 import { SectionId } from './types';
@@ -22,6 +24,7 @@ const App: React.FC = () => {
         <Skills />
         <Process />
         <Projects />
+        <Apps />
 
         {/* Contact Section */}
         <section id={SectionId.CONTACT} className="py-24 relative overflow-hidden">
